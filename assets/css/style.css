@@ -27,7 +27,52 @@ h3 {
 }
 
 /* Header */
+header {
+    background-color: #D3D3D3;
+}
+
+header a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#logo {
+    width: 100%;
+    position: relative;
+    text-align: center;
+}
+
+#logo img {
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: auto;
+}
 
 /* Main */
+main {
+    /* Make main element take up any surplus space to push footer down */
+    flex: 1 0 auto;
+    /* Enable flex properties for child elements */
+    display: flex;
+    flex-direction: column;
+    background-color: aquamarine;
+}
 
 /* Footer */
+footer {
+    background-color: #D3D3D3;
+}
+
+footer h3 {
+    margin: 5px;
+}
+
+#social-networks {
+    text-align: center;
+    margin: 5px;
+    padding: 0px;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
