@@ -142,23 +142,6 @@ main {
     vertical-align: top
 }
 
-/* Media query to allow mobile devices to touch-scroll through results table */
-@media screen and (max-width: 767px) {
-    .tg {
-        width: auto !important;
-    }
-
-    .tg col {
-        width: auto !important;
-    }
-
-    .tg-wrap {
-        overflow-x: auto;
-        -webkit-overflow-scrolling: touch;
-        margin:0px auto
-    }
-}
-
 /* Footer */
 footer {
     background-color: #D3D3D3;
@@ -180,6 +163,23 @@ footer h3 {
 }
 
 /* Media Queries */
+/* Media query to allow mobile devices to touch-scroll through results table */
+@media screen and (max-width: 767px) {
+    .tg {
+        width: auto !important;
+    }
+
+    .tg col {
+        width: auto !important;
+    }
+
+    .tg-wrap {
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        margin:0px auto
+    }
+}
+
 /* Responsive navigation menu - display links on top of each other instead of next to each other (for mobile devices) */
 /* @media screen and (max-width: 600px) {
     #menu a {
