@@ -142,6 +142,19 @@ main {
     vertical-align: top
 }
 
+/* Submit results button */
+#submit-results {
+    margin: auto;
+    text-align: center;
+}
+
+.submit-results-button {
+    background-color: red;
+    color: white;
+    width: 150px;
+    height: 50px;
+}
+
 /* Footer */
 footer {
     background-color: #D3D3D3;
