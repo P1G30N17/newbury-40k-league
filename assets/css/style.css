@@ -159,7 +159,6 @@ main {
 }
 
 #submit-results-form label{
-    display: inline-block;
     float: left;
     clear: left;
     width: 250px;
@@ -167,7 +166,6 @@ main {
     padding-top: 10px;
 }
 #submit-results-form input {
-  display: inline-block;
   float: left;
 }
 
