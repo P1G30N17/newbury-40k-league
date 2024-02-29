@@ -37,7 +37,19 @@
 
     <!-- Main -->
     <main>
-        <p>Submit your results here.</p>
+        <form id="submit-results-form" action="https://formdump.codeinstitute.net" method="post">
+            <h2>Submit your League Game Results here:</h2>
+            <div>
+                <label for="player_score">Your Victory Points:</label><input type="number" id="player_score"
+                    name="player_score" class="score-input" required><br>
+                <label for="opponent-score">Your Opponent's Victory Points</label><input type="number"
+                    id="opponent_score" name="opponent_score" class="score-input" required><br>
+            </div>
+            <div id="submit-results">
+                <input type="submit" class="submit-results-button" value="Submit Results">
+            </div>
+        </form>
+        <br>
     </main>
 
     <!-- Footer -->
@@ -45,16 +57,16 @@
         <h3 style="text-align: center;">Available Clubs in Newbury</h3>
         <ul id="social-networks">
             <li>
-                <p>Newbury Gaming - Monday</p><a href="https://www.facebook.com/groups/407728405946483" target="_blank" rel="noopener"
-                    aria-label="Newbury Gaming Facebook page (opens in a new tab)"><i
+                <p>Newbury Gaming - Monday</p><a href="https://www.facebook.com/groups/407728405946483" target="_blank"
+                    rel="noopener" aria-label="Newbury Gaming Facebook page (opens in a new tab)"><i
                         class="fa-brands fa-facebook"></i></a>
             <li>
-                <p>Gitmob Gaming - Wednesday</p><a href="https://www.facebook.com/groups/331001307708399" target="_blank" rel="noopener"
-                    aria-label="Gitmob Gaming Facebook page (opens in a new tab)"><i
+                <p>Gitmob Gaming - Wednesday</p><a href="https://www.facebook.com/groups/331001307708399"
+                    target="_blank" rel="noopener" aria-label="Gitmob Gaming Facebook page (opens in a new tab)"><i
                         class="fa-brands fa-facebook"></i></a>
             <li>
-                <p>Gobbo Gaming - Friday</p><a href="https://www.facebook.com/groups/331001307708399" target="_blank" rel="noopener"
-                    aria-label="Gobbo Gaming Facebook page (opens in a new tab)"><i
+                <p>Gobbo Gaming - Friday</p><a href="https://www.facebook.com/groups/331001307708399" target="_blank"
+                    rel="noopener" aria-label="Gobbo Gaming Facebook page (opens in a new tab)"><i
                         class="fa-brands fa-facebook"></i></a>
         </ul>
     </footer>
