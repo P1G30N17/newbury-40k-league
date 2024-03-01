@@ -175,10 +175,6 @@ main {
     padding: 0 5px;
 }
 
-#waiver {
-    text-align: center;
-}
-
 /* Removes number spinner at the end of results input box */
 /* For Firefox */
 #submit-results-form input[type='number'] {
