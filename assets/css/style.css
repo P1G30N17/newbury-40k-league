@@ -71,7 +71,6 @@ nav {
 }
 
 .active {
-    /* border-bottom: 1px solid #1b1b1b; */
     background-color: #1b1b1b;
     color: #D3D3D3;
 }
@@ -83,7 +82,7 @@ nav {
 
 /* Main */
 main {
-    /* Make main element take up any surplus space to push footer down */
+    /* Make main element take up any excess space to push footer down */
     flex: 1 0 auto;
     /* Enable flex properties for child elements */
     display: flex;
@@ -104,7 +103,7 @@ main {
 .tg {
     border-collapse: collapse;
     border-spacing: 0;
-    margin:0px auto
+    margin: 0px auto
 }
 
 .tg td {
@@ -158,15 +157,16 @@ main {
     align-self: center;
 }
 
-#submit-results-form label{
+#submit-results-form label {
     float: left;
     clear: left;
     width: 250px;
     text-align: left;
     padding-top: 10px;
 }
+
 #submit-results-form input {
-  float: left;
+    float: left;
 }
 
 .score-input {
@@ -180,7 +180,20 @@ main {
     padding: 0 5px;
 }
 
-/* Clears float property of Submit Results button */
+/* Removes number spinner at the end of results input box */
+/* For Firefox */
+#submit-results-form input[type='number'] {
+    -moz-appearance: textfield;
+}
+
+/* Webkit browsers like Safari and Chrome */
+#submit-results-form input[type=number]::-webkit-inner-spin-button,
+#submit-results-form input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Clears float property of Submit Results button on submit results page*/
 #submit-results-form .submit-results-button {
     clear: left;
 }
@@ -196,7 +209,6 @@ footer h3 {
 
 #social-networks {
     text-align: center;
-    text-decoration: underline;
     font-weight: bold;
     margin: 5px;
     padding: 0px;
@@ -219,7 +231,7 @@ footer h3 {
     .tg-wrap {
         overflow-x: auto;
         -webkit-overflow-scrolling: touch;
-        margin:0px auto
+        margin: 0px auto
     }
 }
 
