@@ -42,13 +42,19 @@
             <div>
                 <label for="player_score">Your Victory Points:</label><input type="number" id="player_score"
                     name="player_score" class="score-input" required><br>
-                <label for="opponent-score">Your Opponent's Victory Points</label><input type="number"
+                <label for="opponent-score">Your Opponent's Victory Points:</label><input type="number"
                     id="opponent_score" name="opponent_score" class="score-input" required><br>
             </div>
-            <div id="submit-results">
-                <input type="submit" class="submit-results-button" value="Submit Results">
-            </div>
         </form>
+        <span style="align-self: center; padding-bottom: 25px;">
+            <label for="waiver" style="display: inline-block; vertical-align: middle;">I accept the
+                <a href="">rules</a> of the Newbury 40K League</label>
+            <input type="checkbox" id="waiver" name="waiver" value="agree" form="submit-results-form" required
+                style="vertical-align: middle;">
+        </span>
+        <div id="submit-results">
+            <input type="submit" class="submit-results-button" value="Submit Results" form="submit-results-form">
+        </div>
         <br>
     </main>
 
