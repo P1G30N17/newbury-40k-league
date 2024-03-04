@@ -94,6 +94,10 @@ main {
     text-align: center;
 }
 
+.hidden-heading {
+    display: none;
+}
+
 /* League Results - Index page */
 #league-results h2 {
     text-align: center;
@@ -200,6 +204,16 @@ main {
 #submit-results-form input[type=number]::-webkit-outer-spin-button {
     -webkit-appearance: none;
     margin: 0;
+}
+
+/* Gallery Page */
+#photos img {
+    width: 100%;
+    line-height: 1em;
+}
+
+#photos {
+    line-height: 0;
 }
 
 /* Footer */
