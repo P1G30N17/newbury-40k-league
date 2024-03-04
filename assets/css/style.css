@@ -175,6 +175,20 @@ main {
     padding: 0 5px;
 }
 
+#waiver {
+    align-self: center;
+    padding-bottom: 25px;
+}
+
+#waiver label {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#waiver input {
+    vertical-align: middle;
+}
+
 /* Removes number spinner at the end of results input box */
 /* For Firefox */
 #submit-results-form input[type='number'] {
