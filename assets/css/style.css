@@ -214,6 +214,7 @@ main {
 
 #photos {
     line-height: 0;
+    padding-bottom: 25px;
 }
 
 /* Footer */
@@ -250,6 +251,14 @@ footer h3 {
         overflow-x: auto;
         -webkit-overflow-scrolling: touch;
         margin: 0px auto
+    }
+}
+
+/* Media query: laptops and desktops (992px and up) */
+@media screen and (min-width: 992px) {
+    /* Gallery */
+    #photos {
+        column-count: 4;
     }
 }
 
