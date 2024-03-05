@@ -142,6 +142,11 @@ main {
     vertical-align: top
 }
 
+/* Matchups page */
+#matchups {
+    padding-bottom: 25px;
+}
+
 /* Submit results button styling */
 #submit-results {
     text-align: center;
