@@ -40,10 +40,26 @@
         <form id="submit-results-form" action="https://formdump.codeinstitute.net" method="post">
             <h2>Submit your League Game Results here:</h2>
             <div>
-                <label for="player_score">Your Victory Points:</label><input type="number" id="player_score"
+                <label for="player_name">Your Name: </label><select name="player_name" id="player-name">
+                    <option value="james king">James King</option>
+                    <option value="peter scott">Peter Scott</option>
+                    <option value="chris green">Chris Green</option>
+                    <option value="matt howson">Matt Howson</option>
+                    <option value="jimmy king">Jimmy King</option>
+                </select>
+                <br>
+                <label for="player_score">Your Victory Points: </label><input type="number" id="player-score"
                     name="player_score" class="score-input" required><br>
-                <label for="opponent-score">Your Opponent's Victory Points:</label><input type="number"
-                    id="opponent_score" name="opponent_score" class="score-input" required><br>
+                <label for="opponent_name">Opponent's Name: </label><select name="opponent_name" id="opponent-name">
+                    <option value="james king">James King</option>
+                    <option value="peter scott">Peter Scott</option>
+                    <option value="chris green">Chris Green</option>
+                    <option value="matt howson">Matt Howson</option>
+                    <option value="jimmy king">Jimmy King</option>
+                </select>
+                <br>
+                <label for="opponent_score">Opponent's Victory Points: </label><input type="number"
+                    id="opponent-score" name="opponent_score" class="score-input" required><br>
             </div>
         </form>
         <span id="waiver">

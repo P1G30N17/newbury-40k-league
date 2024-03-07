@@ -166,11 +166,17 @@ main {
 }
 
 #submit-results-form label {
-    float: left;
-    clear: left;
     width: 250px;
-    text-align: left;
+    text-align: justify;
     padding-top: 10px;
+}
+#submit-results-form div {
+    padding: 25px 0px;
+}
+
+#player-name, #opponent-name {
+    border: 1px solid black;
+    height: 25px;
 }
 
 .score-input {
@@ -179,7 +185,7 @@ main {
     border: 1px solid black;
     width: 25px;
     height: 25px;
-    margin: 5px 0 20px 0;
+    margin: 5px 0 5px 0;
     border-radius: 2px;
     padding: 0 5px;
 }
