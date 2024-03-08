@@ -42,7 +42,7 @@
         </div>
         <form id="submit-results-form" action="https://formdump.codeinstitute.net" method="post">
             <div>
-                <label for="player_name">Your Name: </label><select name="player_name" id="player-name">
+                <label for="player-name">Your Name: </label><select name="player_name" id="player-name">
                     <option value="james king">James King</option>
                     <option value="peter scott">Peter Scott</option>
                     <option value="chris green">Chris Green</option>
@@ -50,9 +50,9 @@
                     <option value="jimmy king">Jimmy King</option>
                 </select>
                 <br>
-                <label for="player_score">Your Victory Points: </label><input type="number" id="player-score"
+                <label for="player-score">Your Victory Points: </label><input type="number" id="player-score"
                     name="player_score" class="score-input" required><br>
-                <label for="opponent_name">Opponent's Name: </label><select name="opponent_name" id="opponent-name">
+                <label for="opponent-name">Opponent's Name: </label><select name="opponent_name" id="opponent-name">
                     <option value="james king">James King</option>
                     <option value="peter scott">Peter Scott</option>
                     <option value="chris green">Chris Green</option>
@@ -60,17 +60,17 @@
                     <option value="jimmy king">Jimmy King</option>
                 </select>
                 <br>
-                <label for="opponent_score">Opponent's Victory Points: </label><input type="number"
-                    id="opponent-score" name="opponent_score" class="score-input" required><br>
+                <label for="opponent-score">Opponent's Victory Points: </label><input type="number" id="opponent-score"
+                    name="opponent_score" class="score-input" required><br>
             </div>
         </form>
         <span id="waiver">
             <!-- At a future date once the old webpage is phased out the rules page will be incoportaed into this website. -->
-            <label for="waiver">I accept the
+            <label for="waivertext">I accept the
                 <a href="https://www.newbury40kleague.uk" target="_blank" rel="noopener"
                     aria-label="Newbury 40K League page (opens in a new tab)">rules</a> of the Newbury 40K
                 League</label>
-            <input type="checkbox" id="waiver" name="waiver" value="agree" form="submit-results-form" required>
+            <input type="checkbox" id="waivertext" name="waiver" value="agree" form="submit-results-form" required>
         </span>
         <div id="submit-results">
             <input type="submit" class="league-button" value="Submit Results" form="submit-results-form">
@@ -97,10 +97,10 @@
         </ul>
     </footer>
 
-</body>
+    <!-- Font Awesome Kit -->
+    <script src="https://kit.fontawesome.com/db748690da.js" crossorigin="anonymous"></script>
 
-<!-- Font Awesome Kit -->
-<script src="https://kit.fontawesome.com/db748690da.js" crossorigin="anonymous"></script>
+</body>
 
 </html>
 
