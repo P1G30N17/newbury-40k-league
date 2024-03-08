@@ -40,6 +40,25 @@
         <div class="pg-description">
             <p>League Application Form</p>
         </div>
+        <form id="application-form" action="https://formdump.codeinstitute.net" method="post">
+            <label for="first_name">Enter your First Name: </label><input type="text" id="fname" name="first_name" required><br>
+            <label for="last_name">Enter your Last Name: </label><input type="text" id="lname" name="last_name" required><br>
+            <label for="faction">Choose your faction: </label><select name="faction" id="faction">
+                <option value="space_marines">Space Marines</option>
+                <option value="csm">Chaos Space Marines</option>
+                <option value="dark_angels">Dark Angels</option>
+                <option value="grey_knights">Grey Knights</option>
+                <option value="thousand_sons">Thousand Sons</option>
+                <option value="tau">Tau</option>
+                <option value="aeldari">Aeldari</option>
+                <option value="orks">Orks</option>
+                <option value="necrons">Necrons</option>
+                <option value="world_eaters">World Eaters</option>
+            </select>
+        </form>
+        <div id="submit-results">
+            <input type="submit" class="league-button" value="Apply" form="application-form">
+        </div>
     </main>
 
     <!-- Footer -->

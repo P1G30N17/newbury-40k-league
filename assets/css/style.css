@@ -150,6 +150,7 @@ main {
 /* Submit results button styling */
 #submit-results {
     text-align: center;
+    padding: 25px 0px;
 }
 
 .league-button {
@@ -169,9 +170,6 @@ main {
     width: 250px;
     text-align: justify;
     padding-top: 10px;
-}
-#submit-results-form div {
-    padding: 25px 0px;
 }
 
 #player-name, #opponent-name {
@@ -215,6 +213,18 @@ main {
 #submit-results-form input[type=number]::-webkit-outer-spin-button {
     -webkit-appearance: none;
     margin: 0;
+}
+
+/* League application page */
+#application-form {
+    max-width: fit-content;
+    align-self: center;
+}
+
+#fname, #lname, #faction {
+    border: 1px solid black;
+    height: 25px;
+    margin: 5px 0 5px 0;
 }
 
 /* Gallery Page */
