@@ -1,9 +1,9 @@
 /* Google fonts import */
-@import url('https://fonts.googleapis.com/css2?family=Anta&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Anta&display=swap');
 
 /* Asterisk wildcard selector to override default styles added by the browser */
 * {
-    padding: 0;
+    padding: 5px;
     margin: 0;
     box-sizing: border-box;
 }
@@ -174,7 +174,7 @@ main {
 
 #player-name, #opponent-name {
     border: 1px solid black;
-    height: 25px;
+    height: 30px;
 }
 
 .score-input {
@@ -223,7 +223,7 @@ main {
 
 #fname, #lname, #faction {
     border: 1px solid black;
-    height: 25px;
+    height: 30px;
     margin: 5px 0 5px 0;
 }
 
