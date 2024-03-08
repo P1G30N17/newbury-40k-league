@@ -3,7 +3,7 @@
 
 /* Asterisk wildcard selector to override default styles added by the browser */
 * {
-    padding: 5px;
+    padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
@@ -92,6 +92,7 @@ main {
 
 .pg-description {
     text-align: center;
+    padding: 10px;
 }
 
 .hidden-heading {
@@ -191,6 +192,7 @@ main {
 #waiver {
     align-self: center;
     padding-bottom: 25px;
+    margin: 5px 10px 5px 10px;
 }
 
 #waiver label {
@@ -221,10 +223,14 @@ main {
     align-self: center;
 }
 
+#application-form label {
+    margin: 5px 10px 5px 10px;
+}
+
 #fname, #lname, #faction {
     border: 1px solid black;
     height: 30px;
-    margin: 5px 0 5px 0;
+    margin: 5px 10px 5px 10px;
 }
 
 /* Gallery Page */
