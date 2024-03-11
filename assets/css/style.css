@@ -50,6 +50,7 @@ header a {
 /* Navbar */
 nav {
     margin: auto;
+    float: right;
 }
 
 #menu {
@@ -99,7 +100,11 @@ main {
     display: none;
 }
 
-/* League Results - Index page */
+/* League Results*/
+#league-results {
+    padding-bottom: 25px;
+}
+
 #league-results h2 {
     text-align: center;
 }
@@ -143,15 +148,19 @@ main {
     vertical-align: top
 }
 
-/* Matchups page */
+/* Matchups*/
 #matchups {
     padding-bottom: 25px;
 }
 
-/* Submit results button styling */
-#submit-results {
+#matchups h2 {
     text-align: center;
-    padding: 25px 0px;
+}
+
+/* Submit results button styling */
+#button-box {
+    text-align: center;
+    padding-bottom: 25px;
 }
 
 .league-button {
@@ -159,12 +168,14 @@ main {
     color: white;
     width: 150px;
     height: 50px;
+    margin: 2px;
 }
 
 /* SubmitResults page styling*/
 #submit-results-form {
     max-width: fit-content;
     align-self: center;
+    padding-bottom: 25px;
 }
 
 #submit-results-form label {
@@ -220,6 +231,7 @@ main {
 #application-form {
     max-width: fit-content;
     align-self: center;
+    padding-bottom: 25px;
 }
 
 #application-form label {
