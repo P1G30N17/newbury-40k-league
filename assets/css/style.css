@@ -182,7 +182,7 @@ main {
     background: transparent;
     color: red;
     border: 1px solid black;
-    width: 25px;
+    width: 40px;
     height: 25px;
     margin: 5px 0 5px 0;
     border-radius: 2px;
@@ -239,7 +239,7 @@ main {
 }
 
 #photos {
-    line-height: 0;
+    line-height: 1em;
     padding-bottom: 25px;
 }
 
@@ -260,6 +260,12 @@ footer h3 {
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
+}
+
+#social-networks i {
+    font-size: 160%;
+    padding: 5%;
+    color: #3a3a3a;
 }
 
 /* Media Queries */
