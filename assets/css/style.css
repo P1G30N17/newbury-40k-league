@@ -32,10 +32,10 @@ header {
     position: fixed;
     z-index: 99;
     width: 100%;
-    box-shadow: 0 2px 2px #3a3a3a;
+    box-shadow: 0 2px 2px #222121;
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: start;
 }
 
 header a {
@@ -125,6 +125,23 @@ main {
 
 #perks p {
     padding: 0 20px;
+}
+
+/* Reasons circle image */
+#circle-cover-bg {
+    background: url('../images/Abbadon.JPG') no-repeat top center/cover;
+    height: 90vw;
+    width: 90vw;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+#reasons-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /* League Results*/
@@ -325,11 +342,48 @@ footer h3 {
     }
 }
 
+/* Media query: large or landscape phones (576px and up) */
+@media screen and (min-width: 576px) {
+    #photos {
+        column-count: 2;
+    }
+}
+
 /* Media query: laptops and desktops (992px and up) */
 @media screen and (min-width: 992px) {
 
     /* Gallery */
     #photos {
         column-count: 4;
+    }
+}
+
+/* Media query: large screens (1200px and up) */
+@media screen and (min-width: 1200px) {
+
+    /* Reasons section */
+    #perks {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #perks>div {
+        flex: 1;
+    }
+
+    #reasons-image {
+        order: 0;
+    }
+
+    #perks-mental {
+        order: 1;
+    }
+
+    #perks-mental>div {
+        align-self: flex-start;
+    }
+
+    #perks-social>div {
+        align-self: flex-end;
     }
 }
