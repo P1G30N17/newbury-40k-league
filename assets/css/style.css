@@ -35,7 +35,7 @@ header {
     box-shadow: 0 2px 2px #222121;
     display: flex;
     justify-content: space-between;
-    align-items: start;
+    align-items: center;
 }
 
 header a {
@@ -201,7 +201,7 @@ main {
     text-align: center;
 }
 
-/* Submit results button styling */
+/*button styling */
 #button-box {
     text-align: center;
     padding-bottom: 25px;
@@ -213,6 +213,18 @@ main {
     width: 150px;
     height: 50px;
     margin: 2px;
+}
+
+/* Terminator icon */
+#terminator {
+    background: url('../icons/terminator.ico') no-repeat center center/cover;
+    align-self: center;
+    height: 50vw;
+    width: 50vw;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    max-width: 150px;
+    max-height: 150px;
 }
 
 /* SubmitResults page styling*/
