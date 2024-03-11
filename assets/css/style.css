@@ -20,13 +20,22 @@ body {
 
 h1,
 h2,
-h3 {
+h3,
+h4 {
     text-transform: uppercase;
 }
 
 /* Header */
 header {
     background-color: #D3D3D3;
+    padding: 0 1rem;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    box-shadow: 0 2px 2px #3a3a3a;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
 }
 
 header a {
@@ -34,22 +43,8 @@ header a {
     color: inherit;
 }
 
-#logo {
-    width: 100%;
-    position: relative;
-    text-align: center;
-}
-
-#logo img {
-    width: 100px;
-    height: 100px;
-    display: block;
-    margin: auto;
-}
-
 /* Navbar */
 nav {
-    margin: auto;
     float: right;
 }
 
@@ -85,6 +80,8 @@ nav {
 main {
     /* Make main element take up any excess space to push footer down */
     flex: 1 0 auto;
+    /* Add margin at the top to prevent content from being covered by the header */
+    margin-top: 47px;
     /* Enable flex properties for child elements */
     display: flex;
     flex-direction: column;
@@ -102,7 +99,7 @@ main {
 
 /* Hero section */
 #hero {
-    height: 600px;
+    height: 400px;
     width: 100%;
     background: url('../images/IMG_1939.JPG') no-repeat center center/cover;
     position: relative;
