@@ -114,9 +114,11 @@ main {
 #reasons {
     width: 90%;
     margin: 20px auto;
+    display: flex;
+    justify-content: center;
 }
 
-#reasons>h2 {
+#reasons-header {
     font-size: 280%;
     margin-bottom: 20px;
     text-align: center;
@@ -132,8 +134,8 @@ main {
     padding: 0 20px;
 }
 
-/* Reasons circle image */
-#circle-cover-bg {
+/* Reasons circle images */
+#abbadon-bg {
     background: url('../images/Abbadon.JPG') no-repeat top center/cover;
     height: 90vw;
     width: 90vw;
@@ -143,7 +145,23 @@ main {
     max-height: 300px;
 }
 
-#reasons-image {
+#reasons-image1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#norn-bg {
+    background: url('../images/Norn-emissary.JPG') no-repeat top center/cover;
+    height: 90vw;
+    width: 90vw;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+#reasons-image2 {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -406,20 +424,29 @@ footer h3 {
     }
 }
 
+/* Media query: large screens (1199px and below) */
+/* Hides second reasons image for thinner screens */
+@media screen and (max-width: 1199px) {
+    #reasons-image2 {
+        display: none;
+    }
+}
+
 /* Media query: large screens (1200px and up) */
 @media screen and (min-width: 1200px) {
 
     /* Reasons section */
     #perks {
         display: flex;
-        flex-direction: row;
+        flex-wrap: wrap;
+        flex-basis: 50%;
     }
 
     #perks>div {
         flex: 1;
     }
 
-    #reasons-image {
+    #reasons-image1 {
         order: 0;
     }
 
@@ -433,5 +460,12 @@ footer h3 {
 
     #perks-social>div {
         align-self: flex-end;
+    }
+}
+
+/* Media query: wide screens (1617px and up) */
+@media screen and (min-width: 1617px) {
+    #perks {
+        flex-basis: 40%;
     }
 }
