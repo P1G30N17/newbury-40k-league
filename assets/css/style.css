@@ -238,6 +238,7 @@ main {
     flex-direction: column;
     align-self: center;
     align-items: flex-start;
+    padding: 0 1em 0 0;
 }
 
 #player-name,
@@ -279,13 +280,11 @@ main {
 
 /* League application page */
 #application-form {
-    max-width: fit-content;
+    display: flex;
+    flex-direction: column;
     align-self: center;
-    padding-bottom: 25px;
-}
-
-#application-form label {
-    margin: 5px 10px 5px 10px;
+    align-items: flex-start;
+    padding: 1em;
 }
 
 #fname,
