@@ -86,7 +86,7 @@ main {
     /* Make main element take up any excess space to push footer down */
     flex: 1 0 auto;
     /* Add margin at the top to prevent content from being covered by the header */
-    margin-top: 49px;
+    margin-top: 54px;
     /* Enable flex properties for child elements */
     display: flex;
     flex-direction: column;
@@ -234,15 +234,10 @@ main {
 
 /* SubmitResults page styling*/
 #submit-results-form {
-    max-width: fit-content;
+    display: flex;
+    flex-direction: column;
     align-self: center;
-    padding-bottom: 25px;
-}
-
-#submit-results-form label {
-    width: 250px;
-    text-align: justify;
-    padding-top: 10px;
+    align-items: flex-start;
 }
 
 #player-name,
@@ -263,17 +258,10 @@ main {
 }
 
 #waiver {
-    align-self: center;
-    margin: 5px 10px 5px 10px;
-}
-
-#waiver label {
-    display: inline-block;
-    vertical-align: middle;
-}
-
-#waiver input {
-    vertical-align: middle;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 1em;
 }
 
 /* Removes number spinner at the end of results input box */
@@ -346,8 +334,8 @@ footer h3 {
 
 /* Media Queries */
 /* Media query: small phones (288px and below) */
-@media screen and (min-width: 288px) {
-    #main {
+@media screen and (max-width: 288px) {
+    main {
         margin-top: 81px;
     }
 }
@@ -378,7 +366,6 @@ footer h3 {
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
-
     /* Header */
     nav {
         display: block;
@@ -408,10 +395,6 @@ footer h3 {
 
     .nav-toggle-label {
         display: none;
-    }
-
-    #main {
-        margin-top: 43px;
     }
 }
 
