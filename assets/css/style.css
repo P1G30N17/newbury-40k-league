@@ -32,7 +32,7 @@ header {
     position: fixed;
     z-index: 99;
     width: 100%;
-    box-shadow: 0 2px 2px #222121;
+    box-shadow: 0 3px 3px #440707;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -45,25 +45,13 @@ header a {
 
 /* Navbar */
 nav {
-    float: right;
-}
-
-#menu {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-}
-
-#menu li {
-    float: left;
-}
-
-#menu li a {
-    display: block;
-    text-align: center;
-    padding: 16px;
-    text-decoration: none;
+    position: absolute;
+    background-color: #D3D3D3;
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    display: none;
+    top: 100%;
 }
 
 .active {
@@ -76,12 +64,29 @@ nav {
     color: #D3D3D3;
 }
 
+#menu {
+    list-style-type: none;
+}
+
+/* Nav toggle */
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 2rem;
+}
+
 /* Main */
 main {
     /* Make main element take up any excess space to push footer down */
     flex: 1 0 auto;
     /* Add margin at the top to prevent content from being covered by the header */
-    margin-top: 47px;
+    margin-top: 49px;
     /* Enable flex properties for child elements */
     display: flex;
     flex-direction: column;
@@ -240,7 +245,8 @@ main {
     padding-top: 10px;
 }
 
-#player-name, #opponent-name {
+#player-name,
+#opponent-name {
     border: 1px solid black;
     height: 30px;
 }
@@ -294,7 +300,9 @@ main {
     margin: 5px 10px 5px 10px;
 }
 
-#fname, #lname, #faction {
+#fname,
+#lname,
+#faction {
     border: 1px solid black;
     height: 30px;
     margin: 5px 10px 5px 10px;
@@ -337,6 +345,13 @@ footer h3 {
 }
 
 /* Media Queries */
+/* Media query: small phones (288px and below) */
+@media screen and (min-width: 288px) {
+    #main {
+        margin-top: 81px;
+    }
+}
+
 /* Media query to allow mobile devices to touch-scroll through results table */
 @media screen and (max-width: 767px) {
     .tg {
@@ -358,6 +373,45 @@ footer h3 {
 @media screen and (min-width: 576px) {
     #photos {
         column-count: 2;
+    }
+}
+
+/* Media query: tablets and larger (768px and up) */
+@media screen and (min-width: 768px) {
+
+    /* Header */
+    nav {
+        display: block;
+        position: relative;
+        width: fit-content;
+        padding-right: 1rem;
+        box-shadow: none;
+    }
+
+    #menu {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+
+    #menu li {
+        float: left;
+    }
+
+    #menu li a {
+        display: block;
+        text-align: center;
+        padding: 16px;
+        text-decoration: none;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
+
+    #main {
+        margin-top: 43px;
     }
 }
 
