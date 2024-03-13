@@ -1,8 +1,8 @@
 # Newbury 40K League
 
-The Newbury 40K League project is a basic webpage that allows new and returning players of the well known table top battle system Warhammer 40 000 to organise games in a fun, but semi competitive environment. The league system works by pairing players, who have enrolled in the current league, with other players from the league and keeps a record of their games to be tallied into a league leaderboard. Players will be able to find rules and information pertaining to the league as well as their opponents and regulary scheduled matches over the coarse of each league (generally 3 months).
+The Newbury 40K League project is a basic webpage that allows new and returning players of the well known table top battle system Warhammer 40 000 to organise games in a fun, but semi competitive environment. The league system works by pairing players, who have enrolled in the current league, with other players from the league and keeps a record of their games to be tallied into a league leaderboard. Players will be able to find rules and information pertaining to the league as well as their opponents and regulary scheduled matches over the coarse of each league (generally 3 months). The project was designed from inception with responsiveness in mind and as seen below adjusts well on varying devices.
 
-![Responsice Mockup](https://github.com/lucyrush/readme-template/blob/master/media/love_running_mockup.png)
+![Responsive Mockup](../newbury-40k-league/assets/readme-media/viewports.png)
 
 ## Features 
 
@@ -15,61 +15,110 @@ The following features are intended for all users both new and returning to be a
   - Featured on all pages (even pages that are not assocaited with the site structure, such as the submit results page or the league application page). 
   - This will allow the user to quickly navigate to a desired page, as well as indicate which page they are currently on via the nav tab being highlighted. 
 
-![Nav Bar](https://github.com/lucyrush/readme-template/blob/master/media/love_running_nav.png)
+![Nav Bar](../newbury-40k-league/assets/readme-media/navbar.png)
 
 - __The landing page image__
 
   - The landing page image captures the user's attention with a game of Warhammer 40K in play.
   - This image captures most elements of a game of Warhammer 40K, player interaction, dice, miniature figurines and thematic scenery and board. 
 
-![Landing Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
+![Landing Page](../newbury-40k-league/assets/readme-media/landing-image.png)
 
 - __Why join a league? section__
 
-  - This section pulls the user in with a well known 40K character, Abbadon the Despoiler, surrounded by text that conveys the question to the user of the benefits of joining a league. 
+  - This section pulls the user in with a well known 40K character, Abbadon the Despoiler and a Norn Emmissary, surrounded by text that conveys the question to the user, the benefits of joining a league. 
   - These statements will stand to answer the users question of why would they want to join a 40K league. 
   - The statements vary from a casual environment to someone with high degree of skill in playing 40K enabling the webpage to draw in both new and veteran players of Warhammer 40K.
+  -This section is responsive in that on small screen the norn-emmissary image is removed and abbadon image is place at the bottom, as opposed to the 4 quadrant display on larger screens.
 
-![Why join a league?](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
+![Why join a league?](../newbury-40k-league/assets/readme-media/why-join.png)
 
 - __The Footer__ 
 
-  - The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user. 
-  - The footer is valuable to the user as it encourages them to keep connected via social media
+  - The footer contains links to 3 different tabletop gaming clubs in and around Newbury, Berkshire, UK. These open in a new page when the Facebook icon is clicked. 
+  - Let it be known that each footer link is a Facebook group, and as such the variation in social media is limited as the groups all operate on different days via their corresponding Facebook groups.
+  -These Facebook links will help a user find a night and club that best suits their schedule.
 
-![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
+![Footer](../newbury-40k-league/assets/readme-media/footer.png)
 
-- __Gallery__
+- __The League Page__
 
-  - The gallery will provide the user with supporting images to see what the meet ups look like. 
-  - This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together. 
+  - The league page is where both new and current users will navigate to, to find information pertaining to the current league standings and their league game matchups.
+  - The page is basic in its design in that it conveys the exact specifics of what a user would need to determine their position in the league and who they have to play within the current month to score points on the leaderboard.
+  - Below the league matchups are where a user would interact to navigate to their corresponding need of the website, either they would be submitting their results, or they would be applying to join the next league.
+  - Let it be known that I would like this page to become a lot more advanced in the future, hopefully to include a responsive table that pulls results from a realtime database and updates the league standing and matchups automatically as opposed to manually entering the results and matchups for each month. 
 
-![Gallery](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
+![The League](../newbury-40k-league/assets/readme-media/the-league.png)
 
-- __The Sign Up Page__
+- __Submit Results Page__
 
-  - This page will allow the user to get signed up to Love Running to start their running journey with the community. The user will be able specify if they would like to take part in road, trail or both types of running. The user will be asked to submit their full name and email address. 
+  - This page allows the user to submit their league game results. 
+  - It is extremely simple for the user to use, they simply select their name enter their victory points and then select who their opponent was and their opponent's victory points.
+  - Currently the webpage just posts the information to the Code Institute form dump page and returns the values entered. In the future they will be posted to a database that would update the current league table in realtime.  
+  - There is a waiver that the user must click with a hyperlink to the current newbury40kleague that users can read and gain more precise league rules from, as the current website owner Mark Laverty updates the rules via a poll held on facebook every few leagues. 
+  - A future update could include a polling system on the site and a page for rules and information in a better layout.
+  - A point to note is that a user can only access this page from The League page as future updates will allow for logged in users to be able to access this submission feature.
 
-![Sign Up](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
+![The League](../newbury-40k-league/assets/readme-media/submit-results.png)
 
-For some/all of your features, you may choose to reference the specific project files that implement them.
+- __Apply for Next League Page__
 
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+  - This page allows the user to apply to join the next available league (leagues usually last 3 months). 
+  - It is extremely simple for the user to use, they simply input their name and surname along with selecting their preffered faction they will be playing for the duration of the league from the dropdown menu.
+  - Currently the webpage just posts the information to the Code Institute form dump page and returns the values entered. In the future they will be posted to a database that would update the current league matchups in realtime.  
+  - A point to note is that a user can only access this page from The League page as future updates will allow for logged in users to be able to access this submission feature.
+  - A future feature would be to allow users to join ongoing leagues and be allocated catch up games to point them in contention for the current leaderboard rankings.
+
+  ![Apply for Next League](../newbury-40k-league/assets/readme-media/application.png)
+
+  - __Gallery Page__
+
+  - This page allows the user to view pictures from previous games of the league.
+  - The page is responsive so as to allow larger screens to see more images at once, as opposed to a single column of photos for a smaller device user.
+  - A future feature would be for league members to be able to submit photos of their games via email to the admin who would decide if the photos would be worthy for submission, such as child friendly and SFW (Safe for Work).
+
+![The League](../newbury-40k-league/assets/readme-media/gallery.png)
 
 ### Features Left to Implement
 
-- Another feature idea
+- User Login.
+- Results submission to a realtime database.
+- League table updates pulled from the above realtime database.
+- Catchup game mechanic for new users wishing to join an ongoing league season.
+- User photo submissions from league games.
+- Add a rules and information page once the old newbury40kleague.com webpage is phased out, with updated and streamlined information, along with a potential polling system for league rules and costs. (currently the league is free)
 
 ## Testing 
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+- The Newbury 40K League project was tested on the following devices: Desktop pc (1920 x 1080), iPad Air (2360 x 1640) and iPhone XR (1792 × 828) along with the Google Chrome inspect tool for responive dimension testing.
+- The Newbury 40K League project was tested on the following web browsers: Google Chrome, Microsoft Edge and Mozilla Firefox.
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+### Device Testing
+- The project is responsive in almost all dimensions bar a few outliers such as a smart watch.
+- This was done by multiple commits and adjustments throughout the project inception to incorporate a wide array of dimensions, this mainly including allowing the text and information to nicely nest on the page for the user in a clear and coherent manor.
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+![Responsive Mockup](../newbury-40k-league/assets/readme-media/viewports.png)
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+### Web Browser Testing
 
+- The project obtained a decent lighthouse rating with the Google Lighthouse Dev Tool, however future code could be implemented to allow the images to load faster as that seems to be pulling the overall score down.
+
+![Lighthouse Score](../newbury-40k-league/assets/readme-media/lighthouse.png)
+
+- The various web browsers the project was tested on had mostly optimal results, with little to no errors between all 3.
+
+### Page Testing
+
+- I have checked that all the navbar links work correctly and take the user to the correct pages.
+- I have checked that all submission buttons are active and submit the user's input to the Code Institute form dump page with the correct attributes.
+- I have checked that all user input requests are correct, and inform the user when an input request is incorrect or empty.
+
+### Bugs
+
+- When testing the project in Mozilla Firefox I encountered an error when trying to remove the number spinner from the number input request on the Submit Results page, I used the following code to solve the problem:
+- #submit-results-form input[type='number'] {
+    -moz-appearance: textfield;
+}
 
 ### Validator Testing 
 
