@@ -2,7 +2,7 @@
 
 The Newbury 40K League project is a basic webpage that allows new and returning players of the well known table top battle system Warhammer 40 000 to organise games in a fun, but semi competitive environment. The league system works by pairing players, who have enrolled in the current league, with other players from the league and keeps a record of their games to be tallied into a league leaderboard. Players will be able to find rules and information pertaining to the league as well as their opponents and regulary scheduled matches over the coarse of each league (generally 3 months). The project was designed from inception with responsiveness in mind and as seen below adjusts well on varying devices.
 
-![Responsive Mockup](../newbury-40k-league/assets/readme-media/viewports.png)
+![Responsive Mockup](https://p1g30n17.github.io/newbury-40k-league/assets/readme-media/viewports.png)
 
 ## Features 
 
@@ -15,14 +15,14 @@ The following features are intended for all users both new and returning to be a
   - Featured on all pages (even pages that are not assocaited with the site structure, such as the submit results page or the league application page). 
   - This will allow the user to quickly navigate to a desired page, as well as indicate which page they are currently on via the nav tab being highlighted. 
 
-![Nav Bar](../newbury-40k-league/assets/readme-media/navbar.png)
+![Nav Bar](https://p1g30n17.github.io/newbury-40k-league/assets/readme-media/navbar.png)
 
 - __The landing page image__
 
   - The landing page image captures the user's attention with a game of Warhammer 40K in play.
   - This image captures most elements of a game of Warhammer 40K, player interaction, dice, miniature figurines and thematic scenery and board. 
 
-![Landing Page](../newbury-40k-league/assets/readme-media/landing-image.png)
+![Landing Page](https://p1g30n17.github.io/newbury-40k-league/assets/readme-media/landing-image.png)
 
 - __Why join a league? section__
 
@@ -31,7 +31,7 @@ The following features are intended for all users both new and returning to be a
   - The statements vary from a casual environment to someone with high degree of skill in playing 40K enabling the webpage to draw in both new and veteran players of Warhammer 40K.
   -This section is responsive in that on small screen the norn-emmissary image is removed and abbadon image is place at the bottom, as opposed to the 4 quadrant display on larger screens.
 
-![Why join a league?](../newbury-40k-league/assets/readme-media/why-join.png)
+![Why join a league?](https://p1g30n17.github.io/newbury-40k-league/assets/readme-media/why-join.png)
 
 - __The Footer__ 
 
@@ -39,7 +39,7 @@ The following features are intended for all users both new and returning to be a
   - Let it be known that each footer link is a Facebook group, and as such the variation in social media is limited as the groups all operate on different days via their corresponding Facebook groups.
   -These Facebook links will help a user find a night and club that best suits their schedule.
 
-![Footer](../newbury-40k-league/assets/readme-media/footer.png)
+![Footer](https://p1g30n17.github.io/newbury-40k-league/assets/readme-media/footer.png)
 
 - __The League Page__
 
@@ -48,7 +48,7 @@ The following features are intended for all users both new and returning to be a
   - Below the league matchups are where a user would interact to navigate to their corresponding need of the website, either they would be submitting their results, or they would be applying to join the next league.
   - Let it be known that I would like this page to become a lot more advanced in the future, hopefully to include a responsive table that pulls results from a realtime database and updates the league standing and matchups automatically as opposed to manually entering the results and matchups for each month. 
 
-![The League](../newbury-40k-league/assets/readme-media/the-league.png)
+![The League](https://p1g30n17.github.io/newbury-40k-league/assets/readme-media/the-league.png)
 
 - __Submit Results Page__
 
@@ -59,7 +59,7 @@ The following features are intended for all users both new and returning to be a
   - A future update could include a polling system on the site and a page for rules and information in a better layout.
   - A point to note is that a user can only access this page from The League page as future updates will allow for logged in users to be able to access this submission feature.
 
-![The League](../newbury-40k-league/assets/readme-media/submit-results.png)
+![The League](https://p1g30n17.github.io/newbury-40k-league/assets/readme-media/submit-results.png)
 
 - __Apply for Next League Page__
 
@@ -69,7 +69,7 @@ The following features are intended for all users both new and returning to be a
   - A point to note is that a user can only access this page from The League page as future updates will allow for logged in users to be able to access this submission feature.
   - A future feature would be to allow users to join ongoing leagues and be allocated catch up games to point them in contention for the current leaderboard rankings.
 
-  ![Apply for Next League](../newbury-40k-league/assets/readme-media/application.png)
+  ![Apply for Next League](https://p1g30n17.github.io/newbury-40k-league/assets/readme-media/application.png)
 
   - __Gallery Page__
 
@@ -77,7 +77,7 @@ The following features are intended for all users both new and returning to be a
   - The page is responsive so as to allow larger screens to see more images at once, as opposed to a single column of photos for a smaller device user.
   - A future feature would be for league members to be able to submit photos of their games via email to the admin who would decide if the photos would be worthy for submission, such as child friendly and SFW (Safe for Work).
 
-![The League](../newbury-40k-league/assets/readme-media/gallery.png)
+![The League](https://p1g30n17.github.io/newbury-40k-league/assets/readme-media/gallery.png)
 
 ### Features Left to Implement
 
@@ -97,13 +97,13 @@ The following features are intended for all users both new and returning to be a
 - The project is responsive in almost all dimensions bar a few outliers such as a smart watch.
 - This was done by multiple commits and adjustments throughout the project inception to incorporate a wide array of dimensions, this mainly including allowing the text and information to nicely nest on the page for the user in a clear and coherent manor.
 
-![Responsive Mockup](../newbury-40k-league/assets/readme-media/viewports.png)
+![Responsive Mockup](https://p1g30n17.github.io/newbury-40k-league/assets/readme-media/viewports.png)
 
 ### Web Browser Testing
 
 - The project obtained a decent lighthouse rating with the Google Lighthouse Dev Tool, however future code could be implemented to allow the images to load faster as that seems to be pulling the overall score down.
 
-![Lighthouse Score](../newbury-40k-league/assets/readme-media/lighthouse.png)
+![Lighthouse Score](https://p1g30n17.github.io/newbury-40k-league/assets/readme-media/lighthouse.png)
 
 - The various web browsers the project was tested on had mostly optimal results, with little to no errors between all 3.
 
