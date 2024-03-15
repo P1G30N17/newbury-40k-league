@@ -95,7 +95,7 @@ main {
 
 .pg-description {
     text-align: center;
-    padding: 10px;
+    padding: 20px;
 }
 
 .hidden-heading {
@@ -320,8 +320,8 @@ main {
 }
 
 #photos {
-    line-height: 1em;
-    padding-bottom: 25px;
+    line-height: 3em;
+    padding: 1em;
 }
 
 /* Footer */
