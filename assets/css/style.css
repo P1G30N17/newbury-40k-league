@@ -300,7 +300,6 @@ main {
     display: flex;
     flex-direction: column;
     align-self: center;
-    align-items: flex-start;
     padding: 1em;
 }
 
@@ -309,7 +308,7 @@ main {
 #faction {
     border: 1px solid black;
     height: 30px;
-    margin: 5px 10px 5px 10px;
+    margin: 5px 0;
 }
 
 /* Gallery Page */
