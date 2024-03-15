@@ -256,24 +256,22 @@ main {
     display: flex;
     flex-direction: column;
     align-self: center;
-    align-items: flex-start;
-    padding: 0 1em 0 0;
+    padding: 0 1em;
+    width: 200px;
 }
 
 #player-name,
 #opponent-name {
     border: 1px solid black;
     height: 30px;
+    margin-bottom: 5px;
 }
 
 .score-input {
     background: transparent;
-    color: red;
     border: 1px solid black;
-    width: 40px;
-    height: 25px;
-    margin: 5px 0 5px 0;
     border-radius: 2px;
+    height: 30px;
     padding: 0 5px;
 }
 
