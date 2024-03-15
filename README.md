@@ -4,6 +4,12 @@ The Newbury 40K League project is a basic webpage that allows new and returning 
 
 ![Responsive Mockup](https://p1g30n17.github.io/newbury-40k-league/assets/readme-media/viewports.png)
 
+## User Stories
+- As someone new to 40K this site helped me find a local gaming club to fit my schedule.
+- As a 40K player this site is great for matching me with similarly skilled players to test my tactics.
+- As a 40 player I enjoyed using this site for friendly matchups, rather than me having to search forums to find other players.
+- As a competitive player of 40K I found it very easy to submit my results from a league game and find out who my next opponent is.
+
 ## Features 
 
 The following features are intended for all users both new and returning to be able to quickly and easily navigate the webpage to their desired effect. Returning users will be able to find the required information pertaining to their league standing and upcoming matches for the outlined month. Whereas new users may be drawn into joining the league through the enticing homepage and then apply to join the league via the necessary application process.
