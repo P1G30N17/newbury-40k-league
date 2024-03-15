@@ -319,7 +319,7 @@ main {
 
 #photos {
     line-height: 3em;
-    padding: 1em;
+    padding: 0 1em 1em 1em;
 }
 
 /* Footer */
