@@ -106,7 +106,7 @@ main {
 #hero {
     height: 400px;
     width: 100%;
-    background: url('../images/IMG_1939.JPG') no-repeat center center/cover;
+    background: url('../images/img-1939.JPG') no-repeat center center/cover;
     position: relative;
 }
 
