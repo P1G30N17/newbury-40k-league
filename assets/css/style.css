@@ -78,7 +78,7 @@ nav {
 }
 
 .nav-toggle-label {
-    font-size: 2rem;
+    font-size: 2.5rem;
 }
 
 /* Main */
@@ -86,7 +86,7 @@ main {
     /* Make main element take up any excess space to push footer down */
     flex: 1 0 auto;
     /* Add margin at the top to prevent content from being covered by the header */
-    margin-top: 43px;
+    margin-top: 53px;
     /* Enable flex properties for child elements */
     display: flex;
     flex-direction: column;
