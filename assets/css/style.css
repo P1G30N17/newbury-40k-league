@@ -136,7 +136,7 @@ main {
 
 /* Reasons circle images */
 #abbadon-bg {
-    background: url('../images/Abbadon.JPG') no-repeat top center/cover;
+    background: url('../images/abbadon.JPG') no-repeat top center/cover;
     height: 90vw;
     width: 90vw;
     margin-bottom: 20px;
@@ -152,7 +152,7 @@ main {
 }
 
 #norn-bg {
-    background: url('../images/Norn-emissary.JPG') no-repeat top center/cover;
+    background: url('../images/norn-emissary.JPG') no-repeat top center/cover;
     height: 90vw;
     width: 90vw;
     margin-bottom: 20px;
